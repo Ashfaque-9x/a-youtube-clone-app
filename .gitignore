@@ -22,8 +22,8 @@ terraform.tfstate
 .env
 .env.example
 vpc.tf.old
-
-
+.terraform.lock.hcl
+/terraform.tfstate.backup
 
 npm-debug.log*
 yarn-debug.log*
