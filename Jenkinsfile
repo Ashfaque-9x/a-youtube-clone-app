@@ -19,7 +19,7 @@ pipeline {
         
         stage('checkout from git') {
             steps {
-                git branch 'main', url: "https://github.com/Devnikops/youtube-clone-app.git"
+                git branch: 'main', url: 'https://github.com/Devnikops/youtube-clone-app.git'
             }            
         }
 
