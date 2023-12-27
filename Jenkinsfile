@@ -13,7 +13,7 @@ pipeline {
     stages {
         stage('clean workspace') {
             steps {
-                cleanws()
+                cleanWs()
             }
         }
         
@@ -65,7 +65,7 @@ pipeline {
 
         stage {
             steps('Trivy Image Scan') {
-                sh "trivy image ashfaque9x/youtube-clone:latest > trivyimage.txt"
+                sh "trivy image nikhil999999/youtube-clone:latest > trivyimage.txt"
             }
         }
     }
